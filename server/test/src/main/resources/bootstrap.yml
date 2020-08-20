@@ -1,0 +1,9 @@
+server:
+  port: 8988
+
+spring:
+  application:
+    name: test
+  rocketmq:
+    #name-server: 192.168.1.116:9876
+    name-server: 10.11.46.100:9876

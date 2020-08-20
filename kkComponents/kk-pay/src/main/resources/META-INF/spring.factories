@@ -1,0 +1,4 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.kk.d.pay.alipay.AlipayConfiguration,\
+com.kk.d.pay.wx.WxConfiguration,\
+com.kk.d.pay.applePay.ApplePayAutoConfiguration

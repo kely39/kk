@@ -1,0 +1,74 @@
+management:
+  endpoint:
+    health:
+      show-details: always
+
+spring:
+  datasource:
+    druid:
+      url: jdbc:mysql://localhost:3306/kk?useUnicode=true&characterEncoding=UTF-8&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=Asia/Shanghai&useSSL=false
+      username: root
+      password: 123456
+  redis:
+    database: 0
+    host: 127.0.0.1
+    port: 6379
+    password:
+    timeout: 5000
+    lettuce:
+      pool:
+        max-active: 8
+        max-idle: 8
+        max-wait: -1
+  rocketmq:
+    name-server: 10.11.46.100:9876
+
+kk:
+  frameworkweb:
+    swagger:
+      enabled: true
+      name: base
+    cors:
+      enabled: true
+    xss:
+      enabled: true
+    event:
+      enabled: true
+      executor:
+        poolsize: 100
+    sql-log:
+      enabled: true
+  authorization:
+    enabled: true
+    token-manager:
+      # 是否单点登录
+      single-token-with-user: true
+    interceptor:
+      http-header-name: authorization
+      unauthorized-error-message: 登录失效，请重新登录
+    token-cache:
+      tokenExpireSeconds: 604800
+      user-login-type: MEMBER
+  smsCodeValidMins: 5
+  wx:
+    mp:
+      enabled: true
+      appid: wx4204fdfb01794b59
+      appsecret: f2ab14b4c8e95ba37bf10e4c7cb7a7a0
+  weixin:
+    enabled: true
+    appId: wx206bbf74f0c8e9b5
+    mchId: 1419009602
+    mchKey: Bbjd3128971247137218471247213712
+    httpTimeout: 10000
+    keyPath: classpath:apiclient_cert.p12
+    httpConnectionTimeout: 8000
+    signType: MD5
+    notifyUrl: xxx
+  alipay:
+    enabled: true
+    appId: 2018081461019338
+    privateKey: xxxyyy
+    alipayPublicKey: xxx
+    notifyUrl: xxx
+    returnUrl: xxx

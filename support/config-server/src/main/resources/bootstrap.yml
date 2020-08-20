@@ -1,0 +1,16 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: config-server
+  profiles:
+    active: native,local #如果是本地目录配置前面添加native；git配置不需要
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8888/eureka/
+
+logging:
+  path: ${user.home}/logs/config-server

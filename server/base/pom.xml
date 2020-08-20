@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.kk.d</groupId>
+        <artifactId>kk-parent</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+
+    <groupId>com.kk.d</groupId>
+    <artifactId>base</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>jar</packaging>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-consul-config</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-consul-discovery</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-actuator</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+        <!-- mybatis-plus插件 begin -->
+        <dependency>
+            <groupId>com.baomidou</groupId>
+            <artifactId>mybatis-plus-boot-starter</artifactId>
+        </dependency>
+        <!-- mybatis-plus插件 end -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-aop</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>druid-spring-boot-starter</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+        </dependency>
+        <!-- redis begin -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-redis</artifactId>
+        </dependency>
+        <!-- redis依赖commons-pool 这个依赖一定要添加 -->
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-pool2</artifactId>
+        </dependency>
+        <!-- redis end -->
+        <dependency>
+            <groupId>org.apache.velocity</groupId>
+            <artifactId>velocity-engine-core</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+        </dependency>
+
+        <!-- kk begin -->
+        <dependency>
+            <groupId>com.kk.d</groupId>
+            <artifactId>authorization</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.kk.d</groupId>
+            <artifactId>framework-web</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.kk.d</groupId>
+            <artifactId>kk-util</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.kk.d</groupId>
+            <artifactId>third-party</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.kk.d</groupId>
+            <artifactId>kk-pay</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.kk.d</groupId>
+            <artifactId>kk-mq</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.kk.d</groupId>
+            <artifactId>kk-qny</artifactId>
+        </dependency>
+        <!-- kk end -->
+
+        <!-- test -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+
+</project>

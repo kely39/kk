@@ -1,0 +1,3 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.kk.d.framework.web.FrameworkCoreAutoConfiguration,\
+com.kk.d.framework.web.FrameworkWebAutoConfiguration

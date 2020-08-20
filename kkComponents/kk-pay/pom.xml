@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>kkComponents</artifactId>
+        <groupId>com.kk.d</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>kk-pay</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <properties>
+        <alipay-sdk-java.version>3.3.4.ALL</alipay-sdk-java.version>
+        <alipay-trade-sdk.version>20161215</alipay-trade-sdk.version>
+        <weixin-java-pay.version>3.6.0</weixin-java-pay.version>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-autoconfigure</artifactId>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-beans</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-core</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.tomcat.embed</groupId>
+            <artifactId>tomcat-embed-core</artifactId>
+            <version>8.5.23</version>
+            <optional>true</optional>
+        </dependency>
+        <!-- lombok -->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>${lombok.version}</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>${fastjson.version}</version>
+            <scope>provided</scope>
+        </dependency>
+        <!-- alipay begin -->
+        <dependency>
+            <groupId>com.alipay.sdk</groupId>
+            <artifactId>alipay-sdk-java</artifactId>
+            <version>${alipay-sdk-java.version}</version>
+            <exclusions>
+                <exclusion>
+                    <artifactId>commons-logging</artifactId>
+                    <groupId>commons-logging</groupId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+        <dependency>
+            <groupId>com.alipay</groupId>
+            <artifactId>alipay-trade-sdk</artifactId>
+            <version>${alipay-trade-sdk.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>commons-lang</groupId>
+            <artifactId>commons-lang</artifactId>
+            <version>2.6</version>
+            <optional>true</optional>
+        </dependency>
+        <!-- alipay end -->
+        <!-- wx begin -->
+        <dependency>
+            <groupId>com.github.binarywang</groupId>
+            <artifactId>weixin-java-pay</artifactId>
+            <version>${weixin-java-pay.version}</version>
+            <exclusions>
+                <exclusion>
+                    <!-- 内部1.4.9版本过低 -->
+                    <groupId>com.thoughtworks.xstream</groupId>
+                    <artifactId>xstream</artifactId>
+                </exclusion>
+                <exclusion>
+                    <artifactId>guava</artifactId>
+                    <groupId>com.google.guava</groupId>
+                </exclusion>
+                <exclusion>
+                    <artifactId>commons-io</artifactId>
+                    <groupId>commons-io</groupId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+        <!-- 统一版本依赖 begin -->
+        <dependency>
+            <groupId>com.thoughtworks.xstream</groupId>
+            <artifactId>xstream</artifactId>
+            <version>1.4.10</version>
+        </dependency>
+        <dependency>
+            <artifactId>guava</artifactId>
+            <groupId>com.google.guava</groupId>
+            <version>${com.google.guava.version}</version>
+        </dependency>
+        <dependency>
+            <artifactId>commons-io</artifactId>
+            <groupId>commons-io</groupId>
+            <version>${commons-io.version}</version>
+        </dependency>
+        <!-- 统一版本依赖 end -->
+        <!-- wx end -->
+        <!-- test -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+            <scope>test</scope>
+            <exclusions>
+                <exclusion>
+                    <artifactId>tomcat-embed-core</artifactId>
+                    <groupId>org.apache.tomcat.embed</groupId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+
+</project>

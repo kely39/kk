@@ -1,0 +1,6 @@
+spring:
+  rocketmq:
+    #name-server: 192.168.1.116:9876
+    name-server: 10.11.46.100:9876
+    producer:
+      group: my-group

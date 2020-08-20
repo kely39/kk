@@ -1,0 +1,7 @@
+kk:
+  qny:
+    enabled: false
+    ak: ak
+    sk: sk
+    notifyUrlHost: 回调地址
+    prefixMap: {"chetailian-private": {"bucket":"chetailian-private-test","isPrivate":true,"prefix":""},"chetailian-public": {"bucket":"chetailian-public-test","isPrivate":false,"prefix":""}}

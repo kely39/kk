@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.0.8.RELEASE</version>
+        <relativePath/>
+    </parent>
+
+    <groupId>com.kk.d</groupId>
+    <artifactId>kk-parent</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <properties>
+        <java.version>1.8</java.version>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <spring-cloud.version>Finchley.SR4</spring-cloud.version>
+        <junit.version>4.12</junit.version>
+        <druid-spring-boot-starter.version>1.1.10</druid-spring-boot-starter.version>
+        <mybatis-plus.version>3.0.6</mybatis-plus.version>
+        <velocity.version>2.0</velocity.version>
+        <lombok.version>1.18.10</lombok.version>
+        <embedded-redis.version>0.6</embedded-redis.version>
+        <!-- kk components -->
+        <kk-authorization.version>1.0-SNAPSHOT</kk-authorization.version>
+        <kk-framework-web.version>1.0-SNAPSHOT</kk-framework-web.version>
+        <kk-util.version>1.0-SNAPSHOT</kk-util.version>
+        <kk-third-party.version>1.0-SNAPSHOT</kk-third-party.version>
+        <kk-pay.version>1.0-SNAPSHOT</kk-pay.version>
+        <kk-mq.version>1.0-SNAPSHOT</kk-mq.version>
+        <kk-qny.version>1.0-SNAPSHOT</kk-qny.version>
+
+        <!-- 存在各依赖中版本不一致情况，此处统一版本 -->
+        <com.google.guava.version>20.0</com.google.guava.version>
+        <org.hdrhistogram.version>2.1.10</org.hdrhistogram.version>
+        <commons-io.version>2.4</commons-io.version>
+
+
+    </properties>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-dependencies</artifactId>
+                <version>${spring-cloud.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+
+            <!-- kk -->
+            <dependency>
+                <groupId>com.kk.d</groupId>
+                <artifactId>authorization</artifactId>
+                <version>${kk-authorization.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.kk.d</groupId>
+                <artifactId>framework-web</artifactId>
+                <version>${kk-framework-web.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.kk.d</groupId>
+                <artifactId>kk-util</artifactId>
+                <version>${kk-util.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.kk.d</groupId>
+                <artifactId>third-party</artifactId>
+                <version>${kk-third-party.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.kk.d</groupId>
+                <artifactId>kk-pay</artifactId>
+                <version>${kk-pay.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.kk.d</groupId>
+                <artifactId>kk-mq</artifactId>
+                <version>${kk-mq.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.kk.d</groupId>
+                <artifactId>kk-qny</artifactId>
+                <version>${kk-qny.version}</version>
+            </dependency>
+            <!-- kk -->
+
+            <dependency>
+                <groupId>com.baomidou</groupId>
+                <artifactId>mybatis-plus-boot-starter</artifactId>
+                <version>${mybatis-plus.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.alibaba</groupId>
+                <artifactId>druid-spring-boot-starter</artifactId>
+                <version>${druid-spring-boot-starter.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.velocity</groupId>
+                <artifactId>velocity-engine-core</artifactId>
+                <version>${velocity.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.projectlombok</groupId>
+                <artifactId>lombok</artifactId>
+                <version>${lombok.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>junit</groupId>
+                <artifactId>junit</artifactId>
+                <version>${junit.version}</version>
+                <scope>test</scope>
+            </dependency>
+            <dependency>
+                <groupId>com.github.kstyrc</groupId>
+                <artifactId>embedded-redis</artifactId>
+                <version>${embedded-redis.version}</version>
+                <scope>test</scope>
+                <exclusions>
+                    <exclusion>
+                        <artifactId>guava</artifactId>
+                        <groupId>com.google.guava</groupId>
+                    </exclusion>
+                </exclusions>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-source-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <id>attach-sources</id>
+                        <goals>
+                            <goal>jar</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>8</source>
+                    <target>8</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+
+</project>

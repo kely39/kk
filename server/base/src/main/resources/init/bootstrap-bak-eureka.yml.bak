@@ -1,0 +1,10 @@
+server:
+  port: 8989
+
+spring:
+  application:
+    name: base
+  cloud:
+    config:
+      profile: dev
+      uri: http://localhost:8080

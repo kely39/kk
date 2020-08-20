@@ -1,0 +1,37 @@
+version: '3.0'
+
+services:
+  consul-server1:
+    image: consul:latest
+    container_name: consul-server1
+    hostname: "consul-server1"
+    ports:
+      - "8501:8500"
+    volumes:
+      - ./consul/data1:/consul/data
+    command: "agent -server -bootstrap-expect 3 -ui -disable-host-node-id -client 0.0.0.0"
+  consul-server2:
+    image: consul:latest
+    container_name: consul-server2
+    hostname: "consul-server2"
+    ports:
+      - "8502:8500"
+    volumes:
+      - ./consul/data2:/consul/data
+    command: "agent -server -ui -join consul-server1 -disable-host-node-id -client 0.0.0.0"
+    depends_on:
+      - consul-server1
+  consul-node1:
+    image: consul:latest
+    container_name: consul-node1
+    hostname: "consul-node1"
+    command: "agent -join consul-server1 -disable-host-node-id"
+    depends_on:
+      - consul-server1
+  consul-node2:
+    image: consul:latest
+    container_name: consul-node2
+    hostname: "consul-node2"
+    command: "agent -join consul-server1 -disable-host-node-id"
+    depends_on:
+      - consul-server1
