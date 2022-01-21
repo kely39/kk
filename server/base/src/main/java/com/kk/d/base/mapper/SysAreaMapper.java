@@ -8,7 +8,7 @@ import com.baomidou.mybatisplus.core.mapper.BaseMapper;
  * 区域表 Mapper 接口
  * </p>
  *
- * @author yangqh
+ * @author kk
  * @since 2020-01-02
  */
 public interface SysAreaMapper extends BaseMapper<SysAreaEntity> {

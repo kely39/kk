@@ -17,7 +17,7 @@ import java.util.List;
  * 章节 服务实现类
  * </p>
  *
- * @author yangqh
+ * @author kk
  * @since 2019-12-26
  */
 @Service

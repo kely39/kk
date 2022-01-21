@@ -6,7 +6,7 @@ import org.springframework.cloud.context.config.annotation.RefreshScope;
 import java.util.Map;
 
 /**
- * @author yangqh
+ * @author kk
  * @date 2020/1/14
  **/
 @ConfigurationProperties(prefix = "kk.qny",ignoreInvalidFields = true)

@@ -9,7 +9,7 @@ import java.io.Serializable;
 
 /**
  * @Description: 参数对象
- * @Author yangqh
+ * @Author kk
  * @Date 17:17 2018/12/26
  **/
 @Data

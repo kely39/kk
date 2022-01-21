@@ -3,7 +3,7 @@ package com.kk.d.base.constants;
 /**
  * 登录用户类型
  *
- * @author yangqh
+ * @author kk
  * @date 2019/12/27
  **/
 public enum UserLoginType {

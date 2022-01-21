@@ -16,7 +16,7 @@ import java.time.LocalDateTime;
  * 用户表
  * </p>
  *
- * @author yangqh
+ * @author kk
  * @since 2019-12-27
  */
 @AllArgsConstructor

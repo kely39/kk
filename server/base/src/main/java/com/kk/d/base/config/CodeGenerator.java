@@ -19,14 +19,14 @@ import java.util.Map;
 /**
  * 代码生成工具
  *
- * @author yangqh
+ * @author kk
  * @date 2019/12/26
  **/
 public class CodeGenerator {
 
     public static final String projectPath = "D:\\workspace\\kk\\server\\base";
     public static final String outPutSuffixPath = "/src/main/java";
-    public static final String author = "yangqh";
+    public static final String author = "kk";
     public static final String dbUrl = "jdbc:mysql://localhost:3306/kk?useUnicode=true&characterEncoding=utf-8&useSSL=false";
     public static final String driverName = "com.mysql.jdbc.Driver";
     public static final String userName = "root";

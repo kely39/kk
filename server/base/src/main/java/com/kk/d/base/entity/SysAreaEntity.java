@@ -17,7 +17,7 @@ import lombok.experimental.Accessors;
  * 区域表
  * </p>
  *
- * @author yangqh
+ * @author kk
  * @since 2020-01-02
  */
 @AllArgsConstructor

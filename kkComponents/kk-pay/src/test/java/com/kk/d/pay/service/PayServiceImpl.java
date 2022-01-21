@@ -5,7 +5,7 @@ import com.kk.d.pay.NotifyDto;
 
 /**
  * @Description: test
- * @Author yangqh
+ * @Author kk
  * @Date 10:26 2018/12/28
  **/
 public class PayServiceImpl implements AbstractPayService {

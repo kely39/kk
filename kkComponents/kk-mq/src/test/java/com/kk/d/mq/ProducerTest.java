@@ -11,7 +11,7 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import javax.annotation.Resource;
 
 /**
- * @author yangqh
+ * @author kk
  * @date 2020/1/6
  **/
 @RunWith(SpringJUnit4ClassRunner.class)

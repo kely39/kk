@@ -1,7 +1,7 @@
 package com.kk.d.base.constants;
 
 /**
- * @author yangqh
+ * @author kk
  * @date 2019/12/27
  **/
 public class UserConstant {

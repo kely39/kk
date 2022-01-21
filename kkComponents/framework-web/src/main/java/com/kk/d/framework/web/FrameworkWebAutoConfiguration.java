@@ -31,7 +31,7 @@ import java.util.List;
 /**
  * FrameworkWeb自动配置类
  *
- * @author yangqh
+ * @author kk
  * @date 2019/12/26
  **/
 @Slf4j
@@ -49,7 +49,7 @@ public class FrameworkWebAutoConfiguration {
     /**
      * xss过滤器
      *
-     * @author yangqh
+     * @author kk
      * @date 2019/12/26
      **/
     @ConditionalOnProperty(name = {"kk.frameworkweb.xss.enabled"}, havingValue = "true", matchIfMissing = false)
@@ -65,7 +65,7 @@ public class FrameworkWebAutoConfiguration {
     /**
      * 拦截器自动配置
      *
-     * @author yangqh
+     * @author kk
      * @date 2019/12/26
      **/
     @ConditionalOnProperty(name = {"kk.frameworkweb.cors.enabled"}, havingValue = "true", matchIfMissing = false)
@@ -84,7 +84,7 @@ public class FrameworkWebAutoConfiguration {
     /**
      * swagger
      *
-     * @author yangqh
+     * @author kk
      * @date 2019/12/26
      **/
     @ConditionalOnClass(Docket.class)

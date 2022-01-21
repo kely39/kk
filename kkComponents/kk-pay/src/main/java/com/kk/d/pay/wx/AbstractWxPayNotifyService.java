@@ -21,7 +21,7 @@ import java.math.BigDecimal;
 
 /**
  * @Description: 微信回调接口
- * @Author yangqh
+ * @Author kk
  * @Date 10:30 2019/1/23
  **/
 @Slf4j
@@ -32,7 +32,7 @@ public class AbstractWxPayNotifyService {
 
     /**
      * @Description: 微信回调接口（封装通知校验，验签，参数解析，业务校验）
-     * @Author yangqh
+     * @Author kk
      * @Date 11:31 2019/1/23
      * @Param [request]
      * @Return void
@@ -84,7 +84,7 @@ public class AbstractWxPayNotifyService {
 
     /**
      * @Description: 校验回调数据
-     * @Author yangqh
+     * @Author kk
      * @Date 11:09 2019/1/23
      * @Param [request]
      * @Return com.github.binarywang.wxpay.bean.notify.WxPayOrderNotifyResult

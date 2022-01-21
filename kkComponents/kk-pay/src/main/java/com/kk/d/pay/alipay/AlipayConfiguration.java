@@ -14,7 +14,7 @@ import org.springframework.context.annotation.Import;
 
 /**
  * @Description: 支付宝配置类
- * @Author yangqh
+ * @Author kk
  * @Date 17:00 2018/12/26
  * @Param
  * @Return

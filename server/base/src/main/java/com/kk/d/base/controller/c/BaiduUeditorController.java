@@ -23,7 +23,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * @author yangqh
+ * @author kk
  * @date 2020/1/14
  **/
 @Api(tags = "百度富文本框")

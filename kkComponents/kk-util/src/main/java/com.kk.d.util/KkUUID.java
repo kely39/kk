@@ -10,7 +10,7 @@ public class KkUUID {
     /**
      * 主键生成
      *
-     * @author yangqh
+     * @author kk
      * @date 2019/12/28
      **/
     public static String generatePrimaryKeyId() {

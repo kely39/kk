@@ -28,7 +28,7 @@ import java.util.UUID;
 
 /**
  * @Description: 微信支付部分接口单元测试
- * @Author yangqh
+ * @Author kk
  * @Date 14:00 2018/12/26
  **/
 @RunWith(SpringJUnit4ClassRunner.class)
@@ -44,7 +44,7 @@ public class CtlWxAbstractPayServiceTest {
 
     /**
      * @Description: 查询订单
-     * @Author yangqh
+     * @Author kk
      * @Date 14:57 2018/12/26
      * @Param []
      * @Return void
@@ -62,7 +62,7 @@ public class CtlWxAbstractPayServiceTest {
 
     /**
      * @Description: APP支付
-     * @Author yangqh
+     * @Author kk
      * @Date 14:57 2018/12/26
      * @Param []
      * @Return void
@@ -89,7 +89,7 @@ public class CtlWxAbstractPayServiceTest {
 
     /**
      * @Description: 原生扫码支付
-     * @Author yangqh
+     * @Author kk
      * @Date 14:57 2018/12/26
      * @Param []
      * @Return void
@@ -115,7 +115,7 @@ public class CtlWxAbstractPayServiceTest {
 
     /**
      * @Description: 申请退款
-     * @Author yangqh
+     * @Author kk
      * @Date 15:11 2018/12/26
      * @Param []
      * @Return void
@@ -140,7 +140,7 @@ public class CtlWxAbstractPayServiceTest {
     /**
      * 企业付款
      *
-     * @author yangqh
+     * @author kk
      * @date 2019/8/27
      * @see {https://pay.weixin.qq.com/wiki/doc/api/tools/mch_pay.php?chapter=14_2}
      **/
@@ -164,7 +164,7 @@ public class CtlWxAbstractPayServiceTest {
     /**
      * 查询企业付款
      *
-     * @author yangqh
+     * @author kk
      * @date 2019/8/28
      * @see {https://pay.weixin.qq.com/wiki/doc/api/tools/mch_pay.php?chapter=14_3}
      **/

@@ -14,7 +14,7 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Import;
 
 /**
- * @author yangqh
+ * @author kk
  * @date 2019/12/26
  **/
 @Slf4j

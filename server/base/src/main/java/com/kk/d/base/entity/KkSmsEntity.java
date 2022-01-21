@@ -15,7 +15,7 @@ import lombok.experimental.Accessors;
  * 短信表
  * </p>
  *
- * @author yangqh
+ * @author kk
  * @since 2019-12-27
  */
 @AllArgsConstructor

@@ -7,7 +7,7 @@ import java.io.InputStream;
 import java.util.List;
 
 /**
- * @author yangqh
+ * @author kk
  * @date 2020/1/14
  **/
 public interface QnyService {

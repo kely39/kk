@@ -16,7 +16,7 @@ import org.springframework.context.annotation.Import;
 
 /**
  * @Description: 微信配置类
- * @Author yangqh
+ * @Author kk
  * @Date 10:15 2018/12/26
  **/
 @Configuration

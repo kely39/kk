@@ -4,7 +4,7 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 
 /**
  * @Description: 微信相关配置
- * @Author yangqh
+ * @Author kk
  * @Date 17:24 2018/12/25
  **/
 @ConfigurationProperties(prefix = "kk.weixin")

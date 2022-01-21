@@ -9,7 +9,7 @@ import java.math.BigDecimal;
 
 /**
  * @Description: 回调业务参数
- * @Author yangqh
+ * @Author kk
  * @Date 11:23 2019/1/23
  **/
 @Data

@@ -5,7 +5,7 @@ import org.springframework.scheduling.annotation.Async;
 /**
  * 异步事件监听器
  *
- * @author yangqh
+ * @author kk
  * @date 2019/12/26
  **/
 public class AsyncEventApplicationListener extends AbstractEventApplicationListener<AsyncEventHandle, AsyncEvent> {

@@ -4,7 +4,7 @@ package com.kk.d.authorization.manager;
 import com.kk.d.authorization.constants.TokenClearType;
 
 /**
- * @author yangqh
+ * @author kk
  * @date 2019/12/26
  **/
 public interface TokenCacheService {

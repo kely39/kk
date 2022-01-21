@@ -16,7 +16,7 @@ import java.util.UUID;
 
 /**
  * @Description: 内部测试类
- * @Author yangqh
+ * @Author kk
  * @Date 10:54 2018/12/25
  **/
 @RunWith(SpringJUnit4ClassRunner.class)

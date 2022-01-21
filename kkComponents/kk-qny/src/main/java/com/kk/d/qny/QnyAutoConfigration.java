@@ -11,7 +11,7 @@ import org.springframework.context.annotation.Import;
 import org.springframework.context.annotation.Primary;
 
 /**
- * @author yangqh
+ * @author kk
  * @date 2020/1/14
  **/
 @Configuration

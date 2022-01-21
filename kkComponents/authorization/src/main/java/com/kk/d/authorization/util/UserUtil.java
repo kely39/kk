@@ -7,7 +7,7 @@ import io.jsonwebtoken.*;
 import javax.servlet.http.HttpServletRequest;
 
 /**
- * @author yangqh
+ * @author kk
  * @date 2019/12/26
  **/
 public class UserUtil {

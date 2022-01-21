@@ -15,7 +15,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter
 /**
  * Authorization自动配置类
  *
- * @author yangqh
+ * @author kk
  * @date 2019/12/26
  **/
 @Slf4j

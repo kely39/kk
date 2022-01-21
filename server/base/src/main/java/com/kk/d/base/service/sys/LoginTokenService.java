@@ -1,7 +1,7 @@
 package com.kk.d.base.service.sys;
 
 /**
- * @author yangqh
+ * @author kk
  * @date 2019/12/27
  **/
 public interface LoginTokenService {

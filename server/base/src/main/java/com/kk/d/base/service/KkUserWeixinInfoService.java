@@ -9,13 +9,13 @@ import me.chanjar.weixin.mp.bean.result.WxMpUser;
  * 用户微信信息 服务类
  * </p>
  *
- * @author yangqh
+ * @author kk
  * @since 2019-12-27
  */
 public interface KkUserWeixinInfoService extends IService<KkUserWeixinInfoEntity> {
 
     /**
-     * @author yangqh
+     * @author kk
      * @date 2019/12/28
      **/
     KkUserWeixinInfoEntity selectByOpenid(String openId);
@@ -23,7 +23,7 @@ public interface KkUserWeixinInfoService extends IService<KkUserWeixinInfoEntity
     /**
      * 先初始化kk_user_weixin_info表数据，用户绑定账号时再关联
      *
-     * @author yangqh
+     * @author kk
      * @date 2019/12/31
      **/
     void initWeixinUser(WxMpUser wxMpUser, String appid);

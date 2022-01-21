@@ -12,7 +12,7 @@ import java.awt.image.BufferedImage;
 /**
  * 纯数字验证码
  *
- * @author yangqh
+ * @author kk
  * @date 2019/12/27
  **/
 public class ShearCaptchaUtil extends AbstractCaptcha {

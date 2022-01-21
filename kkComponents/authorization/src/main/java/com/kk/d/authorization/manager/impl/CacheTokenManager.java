@@ -8,7 +8,7 @@ import javax.annotation.Resource;
 /**
  * 使用缓存存储Token
  *
- * @author yangqh
+ * @author kk
  * @date 2019/12/26
  **/
 public class CacheTokenManager extends AbstractTokenManager {

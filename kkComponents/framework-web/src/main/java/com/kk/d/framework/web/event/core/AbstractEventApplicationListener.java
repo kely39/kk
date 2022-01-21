@@ -16,7 +16,7 @@ import java.util.Map;
 /**
  * 事件监听器抽象类
  *
- * @author yangqh
+ * @author kk
  * @date 2019/12/26
  **/
 public abstract class AbstractEventApplicationListener<K extends EventHandle, V extends ApplicationEvent> implements ApplicationListener<V>, InitializingBean, ApplicationContextAware {

@@ -20,7 +20,7 @@ import java.util.regex.Pattern;
 
 /**
  * @Description: 微信支付相关接口
- * @Author yangqh
+ * @Author kk
  * @Date 11:21 2018/12/28
  **/
 public class AbstractWxPayService {
@@ -33,7 +33,7 @@ public class AbstractWxPayService {
 
     /**
      * @Description: 查询订单
-     * @Author yangqh
+     * @Author kk
      * @Date 11:26 2018/12/28
      * @Param [transactionId - 微信订单号, outTradeNo - 商户订单号]
      * @Return com.github.binarywang.wxpay.bean.result.WxPayOrderQueryResult
@@ -51,7 +51,7 @@ public class AbstractWxPayService {
 
     /**
      * @Description: 支持 APP支付
-     * @Author yangqh
+     * @Author kk
      * @Date 11:30 2018/12/28
      * @Param [wxCreateOrderParam, abstractPayService]
      * @Return com.github.binarywang.wxpay.bean.order.WxPayAppOrderResult
@@ -63,7 +63,7 @@ public class AbstractWxPayService {
 
     /**
      * @Description: 支持原生扫码支付
-     * @Author yangqh
+     * @Author kk
      * @Date 11:30 2018/12/28
      * @Param [wxCreateOrderParam, abstractPayService]
      * @Return com.github.binarywang.wxpay.bean.order.WxPayAppOrderResult
@@ -99,7 +99,7 @@ public class AbstractWxPayService {
 
     /**
      * @Description: 申请退款 <p/> 要求：将api证书存放resourses的一级目录下（测试使用证书参见ctl-starter\ctl-pay\test\resourses\apiclient_cert.p12）
-     * @Author yangqh
+     * @Author kk
      * @Date 12:22 2018/12/28
      * @Param [refundOrderParam]
      * @Return com.github.binarywang.wxpay.bean.result.WxPayRefundResult

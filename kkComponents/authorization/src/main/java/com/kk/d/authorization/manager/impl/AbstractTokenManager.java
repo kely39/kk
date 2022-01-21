@@ -11,7 +11,7 @@ import java.util.Calendar;
 /**
  * Token管理的基础类
  *
- * @author yangqh
+ * @author kk
  * @date 2019/12/26
  **/
 public abstract class AbstractTokenManager implements TokenManager {

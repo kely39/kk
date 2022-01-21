@@ -3,7 +3,7 @@ package com.kk.d.base.constants;
 /**
  * 缓存key常量
  *
- * @author yangqh
+ * @author kk
  * @date 2019/12/27
  **/
 public class KeyConstant {

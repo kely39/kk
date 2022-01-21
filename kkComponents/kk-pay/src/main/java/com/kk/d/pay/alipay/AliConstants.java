@@ -2,7 +2,7 @@ package com.kk.d.pay.alipay;
 
 /**
  * @Description: 常量
- * @Author yangqh
+ * @Author kk
  * @Date 18:55 2018/12/26
  **/
 public class AliConstants {

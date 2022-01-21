@@ -11,7 +11,7 @@ import java.util.regex.Pattern;
 /**
  * 对昵称进行统一的匿名处理
  *
- * @author yangqh
+ * @author kk
  * @date 2019/12/26
  **/
 public class AnonymousJsonSerializer extends JsonSerializer<String> {

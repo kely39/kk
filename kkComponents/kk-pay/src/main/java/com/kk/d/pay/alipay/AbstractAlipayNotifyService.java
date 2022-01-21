@@ -20,7 +20,7 @@ import java.util.TreeMap;
 
 /**
  * @Description: 支付宝回调接口
- * @Author yangqh
+ * @Author kk
  * @Date 14:10 2019/1/23
  * @see {https://docs.open.alipay.com/194/103296/}
  **/
@@ -32,7 +32,7 @@ public class AbstractAlipayNotifyService {
 
     /**
      * @Description: 支付宝回调接口（封装通知校验，验签，参数解析，业务校验）
-     * @Author yangqh
+     * @Author kk
      * @Date 11:31 2019/1/23
      * @Param [request]
      * @Return void
@@ -78,7 +78,7 @@ public class AbstractAlipayNotifyService {
 
     /**
      * @Description: 校验回调数据
-     * @Author yangqh
+     * @Author kk
      * @Date 15:00 2019/1/23
      * @Param [request]
      * @Return com.ctl.starter.pay.NotifyDto

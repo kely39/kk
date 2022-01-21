@@ -23,7 +23,7 @@ import java.util.regex.Pattern;
 
 /**
  * @Description: 支付宝相关接口
- * @Author yangqh
+ * @Author kk
  * @Date 17:03 2018/12/26
  **/
 @Slf4j
@@ -40,7 +40,7 @@ public class AlipayServiceHandle {
 
     /**
      * @Description: PC创建预支付订单
-     * @Author yangqh
+     * @Author kk
      * @Date 17:55 2018/12/26
      * @Param [alipayParam]
      * @Return java.lang.String 返回支付二维码
@@ -81,7 +81,7 @@ public class AlipayServiceHandle {
 
     /**
      * @Description: APP创建预支付订单
-     * @Author yangqh
+     * @Author kk
      * @Date 18:33 2018/12/26
      * @Param [alipayParam]
      * @Return java.lang.String
@@ -115,7 +115,7 @@ public class AlipayServiceHandle {
 
     /**
      * @Description: 订单查询
-     * @Author yangqh
+     * @Author kk
      * @Date 18:38 2018/12/26
      * @Param [outTradeNo - 商户订单号]
      * @Return java.lang.Object
@@ -139,7 +139,7 @@ public class AlipayServiceHandle {
 
     /**
      * @Description: alipay.trade.refund(统一收单交易退款接口)
-     * @Author yangqh
+     * @Author kk
      * @Date 18:48 2018/12/26
      * @Param [outTradeNo - 商户订单号, refundAmount - 退款金额（单位：元/两位小数）]
      * @Return java.lang.Boolean

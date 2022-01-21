@@ -19,7 +19,7 @@ import java.util.List;
  * 用户微信信息 服务实现类
  * </p>
  *
- * @author yangqh
+ * @author kk
  * @since 2019-12-27
  */
 @Service

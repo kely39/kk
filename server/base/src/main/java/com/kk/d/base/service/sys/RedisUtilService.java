@@ -1,7 +1,7 @@
 package com.kk.d.base.service.sys;
 
 /**
- * @author yangqh
+ * @author kk
  * @date 2019/12/27
  **/
 public interface RedisUtilService {
@@ -9,7 +9,7 @@ public interface RedisUtilService {
     /**
      * key - value
      *
-     * @author yangqh
+     * @author kk
      * @date 2019/12/27
      **/
     void setString(String key, String code, Integer expireSeconds);
@@ -17,7 +17,7 @@ public interface RedisUtilService {
     /**
      * key - value
      *
-     * @author yangqh
+     * @author kk
      * @date 2019/12/28
      **/
     String getString(String key);

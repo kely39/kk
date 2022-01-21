@@ -8,7 +8,7 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 /**
- * @author yangqh
+ * @author kk
  * @date 2020/1/14
  **/
 public class InnerUtils {

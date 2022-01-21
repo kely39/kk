@@ -51,7 +51,7 @@ public class CommonController extends BaseController {
     private KkUserWeixinInfoService weixinInfoService;
 
     /**
-     * @author yangqh
+     * @author kk
      * @date 2019/12/27
      **/
     @ApiOperation(value = "账号密码登录", notes = "根据账号密码登录，成功返回token。[1000-成功，1100|]", httpMethod = "POST")
@@ -71,7 +71,7 @@ public class CommonController extends BaseController {
     }
 
     /**
-     * @author yangqh
+     * @author kk
      * @date 2019/12/27
      **/
     @ApiOperation(value = "注册（手机号+密码）", notes = "会员注册。", httpMethod = "POST")
@@ -92,7 +92,7 @@ public class CommonController extends BaseController {
     }
 
     /**
-     * @author yangqh
+     * @author kk
      * @date 2019/12/28
      **/
     @ApiOperation(value = "微信登录-APP", notes = "APP微信授权登录。[1109]", httpMethod = "GET")
@@ -109,7 +109,7 @@ public class CommonController extends BaseController {
     }
 
     /**
-     * @author yangqh
+     * @author kk
      * @date 2019/12/28
      **/
     @ApiOperation(value = "微信绑定用户", notes = "微信登录返回1109时需要调用此接口进行账号绑定")
@@ -133,7 +133,7 @@ public class CommonController extends BaseController {
     }
 
     /**
-     * @author yangqh
+     * @author kk
      * @date 2019/12/31
      **/
     @Authorization

@@ -19,7 +19,7 @@ import java.util.regex.Pattern;
 /**
  * 企业付款接口
  *
- * @author yangqh
+ * @author kk
  * @date 2019/8/26
  **/
 @Slf4j
@@ -36,7 +36,7 @@ public class WxEntPayService {
     /**
      * 企业付款到零钱（是否需要证书：是）
      *
-     * @author yangqh
+     * @author kk
      * @date 2019/8/26
      * @see {https://pay.weixin.qq.com/wiki/doc/api/tools/mch_pay.php?chapter=14_2}
      **/
@@ -89,7 +89,7 @@ public class WxEntPayService {
     /**
      * 查询企业付款
      *
-     * @author yangqh
+     * @author kk
      * @date 2019/8/27
      * @see {https://pay.weixin.qq.com/wiki/doc/api/tools/mch_pay.php?chapter=14_3}
      **/
@@ -150,7 +150,7 @@ public class WxEntPayService {
     /**
      * 判断小数点后2位的数字的正则表达式
      *
-     * @author yangqh
+     * @author kk
      * @date 2019/8/27
      **/
     private static boolean isMoney(String str) {

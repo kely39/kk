@@ -13,7 +13,7 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Import;
 
 /**
- * @author yangqh
+ * @author kk
  * @date 2019/12/31
  **/
 @Slf4j
@@ -22,7 +22,7 @@ import org.springframework.context.annotation.Import;
 public class WeixinAutoConfiguration {
 
     /**
-     * @author yangqh
+     * @author kk
      * @date 2019/12/31
      **/
     @ConditionalOnProperty(name = {"kk.wx.mp.enabled"}, havingValue = "true", matchIfMissing = false)

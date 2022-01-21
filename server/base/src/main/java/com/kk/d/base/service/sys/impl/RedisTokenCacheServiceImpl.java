@@ -10,7 +10,7 @@ import org.springframework.cloud.context.config.annotation.RefreshScope;
 import org.springframework.stereotype.Service;
 
 /**
- * @author yangqh
+ * @author kk
  * @date 2019/12/27
  **/
 @RefreshScope

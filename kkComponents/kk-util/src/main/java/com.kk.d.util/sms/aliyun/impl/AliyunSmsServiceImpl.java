@@ -17,7 +17,7 @@ import org.springframework.stereotype.Service;
 import java.io.UnsupportedEncodingException;
 
 /**
- * @author yangqh
+ * @author kk
  * @date 2019/12/26
  **/
 @Slf4j

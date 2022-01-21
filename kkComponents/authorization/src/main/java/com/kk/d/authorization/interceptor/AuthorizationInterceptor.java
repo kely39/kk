@@ -23,7 +23,7 @@ import java.lang.reflect.Method;
  * 身份验证的拦截器
  * 自定义拦截器，对请求进行身份验证
  *
- * @author yangqh
+ * @author kk
  * @date 2019/12/26
  * @see Authorization
  */

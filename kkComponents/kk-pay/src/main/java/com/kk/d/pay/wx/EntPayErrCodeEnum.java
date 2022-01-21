@@ -1,7 +1,7 @@
 package com.kk.d.pay.wx;
 
 /**
- * @author yangqh
+ * @author kk
  * @date 2019/8/27
  * @see {https://pay.weixin.qq.com/wiki/doc/api/tools/mch_pay.php?chapter=14_2}
  **/

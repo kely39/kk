@@ -8,7 +8,7 @@ import com.baomidou.mybatisplus.core.mapper.BaseMapper;
  * 章节 Mapper 接口
  * </p>
  *
- * @author yangqh
+ * @author kk
  * @since 2019-12-26
  */
 public interface ExamChapterMapper extends BaseMapper<ExamChapterEntity> {

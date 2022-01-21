@@ -26,7 +26,7 @@ import java.util.List;
  * 章节 前端控制器
  * </p>
  *
- * @author yangqh
+ * @author kk
  * @since 2019-12-26
  */
 @Api(value = "ExamChapterController", tags = "章节-运营端")

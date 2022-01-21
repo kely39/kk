@@ -1,7 +1,7 @@
 package com.kk.d.util.sms.aliyun;
 
 /**
- * @author yangqh
+ * @author kk
  * @date 2019/12/26
  **/
 public interface SmsService {

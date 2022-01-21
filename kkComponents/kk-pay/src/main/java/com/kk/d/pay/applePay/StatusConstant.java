@@ -1,7 +1,7 @@
 package com.kk.d.pay.applePay;
 
 /**
- * @author yangqh
+ * @author kk
  * @date 2019/8/20
  **/
 public class StatusConstant {

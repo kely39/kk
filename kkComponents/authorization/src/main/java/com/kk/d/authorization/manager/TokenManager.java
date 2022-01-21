@@ -6,7 +6,7 @@ import com.kk.d.authorization.constants.TokenClearType;
  * 对Token进行管理的接口
  * 引入JWT 2017/03/15
  *
- * @author yangqh
+ * @author kk
  * @date 2019/12/26
  **/
 public interface TokenManager {

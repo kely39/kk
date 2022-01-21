@@ -10,7 +10,7 @@ import java.io.IOException;
 /**
  * 处理经过Xss过滤的数据
  *
- * @author yangqh
+ * @author kk
  * @date 2019/12/26
  **/
 public class XssDecodeJsonSerializer extends JsonSerializer<String> {

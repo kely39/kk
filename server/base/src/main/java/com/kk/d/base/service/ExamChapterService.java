@@ -11,7 +11,7 @@ import java.util.List;
  * 章节 服务类
  * </p>
  *
- * @author yangqh
+ * @author kk
  * @since 2019-12-26
  */
 public interface ExamChapterService extends IService<ExamChapterEntity> {

@@ -5,7 +5,7 @@ import org.springframework.context.ApplicationEvent;
 /**
  * 同步事件抽象类
  *
- * @author yangqh
+ * @author kk
  * @date 2019/12/26
  **/
 public abstract class SyncEvent extends ApplicationEvent {

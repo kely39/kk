@@ -6,7 +6,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 /**
- * @author yangqh
+ * @author kk
  * @date 2019/8/26
  * @link {https://pay.weixin.qq.com/wiki/doc/api/tools/mch_pay.php?chapter=14_2}
  **/

@@ -11,7 +11,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.util.Map;
 
 /**
- * @author yangqh
+ * @author kk
  * @date 2019/12/26
  **/
 public abstract class BaseController {

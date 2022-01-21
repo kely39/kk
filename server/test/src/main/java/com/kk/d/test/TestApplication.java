@@ -12,7 +12,7 @@ import org.springframework.context.annotation.Import;
 import org.springframework.web.bind.annotation.GetMapping;
 
 /**
- * @author yangqh
+ * @author kk
  * @date 2019/12/26
  **/
 @Slf4j

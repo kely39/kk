@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * @author yangqh
+ * @author kk
  * @date 2019/12/26
  **/
 public class BaseResultCode {

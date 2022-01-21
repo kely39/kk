@@ -21,7 +21,7 @@ public class ApplePayService {
     /**
      * @param receiptData app调用apple pay返回receipt-data
      * @param isSandbox   是否是沙箱环境
-     * @author yangqh
+     * @author kk
      * @date 2019/8/20
      **/
     public ApplePayRetDTO verifyReceipt(String receiptData, Boolean isSandbox) {

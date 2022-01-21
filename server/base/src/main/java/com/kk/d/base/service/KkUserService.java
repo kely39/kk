@@ -13,19 +13,19 @@ import com.kk.d.base.entity.KkUserWeixinInfoEntity;
  * 用户表 服务类
  * </p>
  *
- * @author yangqh
+ * @author kk
  * @since 2019-12-27
  */
 public interface KkUserService extends IService<KkUserEntity> {
 
     /**
-     * @author yangqh
+     * @author kk
      * @date 2019/12/27
      **/
     KkUserBO findByAccount(String account);
 
     /**
-     * @author yangqh
+     * @author kk
      * @date 2019/12/27
      **/
     void register(RegisterBO convert, String verifyCodeId);
@@ -33,7 +33,7 @@ public interface KkUserService extends IService<KkUserEntity> {
     /**
      * 微信登录
      *
-     * @author yangqh
+     * @author kk
      * @date 2019/12/28
      **/
     int wxLogin(String code, WxLoginDTO wxLoginDTO);
@@ -41,13 +41,13 @@ public interface KkUserService extends IService<KkUserEntity> {
     /**
      * 微信绑定用户
      *
-     * @author yangqh
+     * @author kk
      * @date 2019/12/30
      **/
     WxBoundBO boundWeiXinUser(String phone, String openId, KkUserWeixinInfoEntity weixinInfoEntity);
 
     /**
-     * @author yangqh
+     * @author kk
      * @date 2019/12/31
      **/
     void updatePwd(String currentUserId, String password);

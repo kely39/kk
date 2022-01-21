@@ -24,7 +24,7 @@ import java.util.Properties;
 /**
  * FrameworkCore自动配置类
  *
- * @author yangqh
+ * @author kk
  * @date 2019/12/26
  **/
 @Slf4j
@@ -35,7 +35,7 @@ public class FrameworkCoreAutoConfiguration {
     /**
      * 事件自动配置类
      *
-     * @author yangqh
+     * @author kk
      * @date 2019/12/26
      **/
     @ConditionalOnProperty(name = {"kk.frameworkweb.event.enabled"}, havingValue = "true", matchIfMissing = false)
@@ -66,7 +66,7 @@ public class FrameworkCoreAutoConfiguration {
     }
 
     /**
-     * @author yangqh
+     * @author kk
      * @date 2020/1/8
      **/
     @ConditionalOnProperty(name = {"kk.frameworkweb.sql-log.enabled"}, havingValue = "true", matchIfMissing = false)

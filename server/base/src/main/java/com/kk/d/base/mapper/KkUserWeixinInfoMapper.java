@@ -8,7 +8,7 @@ import com.baomidou.mybatisplus.core.mapper.BaseMapper;
  * 用户微信信息 Mapper 接口
  * </p>
  *
- * @author yangqh
+ * @author kk
  * @since 2019-12-27
  */
 public interface KkUserWeixinInfoMapper extends BaseMapper<KkUserWeixinInfoEntity> {

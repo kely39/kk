@@ -32,7 +32,7 @@ import java.util.Map;
  * 短信表 前端控制器
  * </p>
  *
- * @author yangqh
+ * @author kk
  * @since 2019-12-27
  */
 @Api(tags = "验证码")
@@ -48,7 +48,7 @@ public class KkCodeController extends BaseController {
     private KkSmsService kkSmsService;
 
     /**
-     * @author yangqh
+     * @author kk
      * @date 2019/12/27
      **/
     @ApiOperation(value = "图形验证码", notes = "返回{“image”:“验证码图片的base64字符串”,“uuid”:“”} uuid将作为发短信参数，图形验证码时效10分钟")
@@ -84,7 +84,7 @@ public class KkCodeController extends BaseController {
     }
 
     /**
-     * @author yangqh
+     * @author kk
      * @date 2019/12/28
      **/
     @ApiOperation(value = "发送短信", notes = "1000-成功（返回id用于业务提交），1107-验证码错误，1108-验证码已失效。时效5分钟")

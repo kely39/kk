@@ -3,7 +3,7 @@ package com.kk.d.authorization.constants;
 /**
  * 非正常退出token清除类型（原因）
  *
- * @author yangqh
+ * @author kk
  * @date 2019/12/26
  **/
 public enum TokenClearType {

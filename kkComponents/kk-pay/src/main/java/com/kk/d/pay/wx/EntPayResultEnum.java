@@ -1,7 +1,7 @@
 package com.kk.d.pay.wx;
 
 /**
- * @author yangqh
+ * @author kk
  * @date 2019/8/28
  **/
 public enum EntPayResultEnum {
